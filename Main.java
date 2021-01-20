@@ -4,9 +4,9 @@ class Main {
   public static void main(String[] args) {
    
   int total = 0;
-  
+  Scanner input = new Scanner(System.in);
   for (int i = 0; i < 8; i++) {
-    Scanner input = new Scanner(System.in);
+    
     System.out.println("Enter attendance");
     int attendance = input.nextInt();
     total = total + attendance;
