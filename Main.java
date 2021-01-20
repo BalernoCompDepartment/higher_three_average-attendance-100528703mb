@@ -12,9 +12,9 @@ class Main {
     total = total + attendance;
   }
   
-  double average = total/8;
   
-  System.out.println("Average cricket attendance is " + Math.round(average) +  " this year");
+  
+  System.out.println("Average cricket attendance is " + Math.round((double)total/8) +  " this year");
   
   }
 }
